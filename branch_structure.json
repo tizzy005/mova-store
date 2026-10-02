@@ -1,0 +1,30 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "ci/workflow-dispatch",
+    "fix/dead-amount-binding",
+    "fix/main-test-suite-mechanical",
+    "fix/rustfmt-checkout-test-assert",
+    "main",
+    "origin",
+    "test/consolidate-scval-test-suite"
+  ],
+  "parent": {
+    "ci/workflow-dispatch": "main",
+    "fix/dead-amount-binding": "main",
+    "fix/main-test-suite-mechanical": "main",
+    "fix/rustfmt-checkout-test-assert": "main",
+    "main": null,
+    "origin": "main",
+    "test/consolidate-scval-test-suite": "main"
+  },
+  "order": [
+    "main",
+    "ci/workflow-dispatch",
+    "fix/dead-amount-binding",
+    "fix/main-test-suite-mechanical",
+    "fix/rustfmt-checkout-test-assert",
+    "origin",
+    "test/consolidate-scval-test-suite"
+  ]
+}
